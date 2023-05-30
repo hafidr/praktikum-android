@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fid\'s App</string>
+    <string name="version">Versi 1.0</string>
+    <string name="txt_judul">LATIHAN ANDROID</string>
+    <string name="paragraf">Hari ini kami sedang belajar ngoding pada android di mata kuliah pemrograman perangkat bergerak.</string>
+
+    <!--  Button Text  -->
+    <string name="btn_login" tools:ignore="ExtraTranslation">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_simpan">Save</string>
+    <string name="btn_kirim">Submit</string>
+    <string name="btn_enter">Enter</string>
+
+    <!--  Konten Dashboard  -->
+    <string name="judul_dashboard">MY DASHBOARD</string>
+    <string name="btn_about">ABOUT</string>
+    <string name="btn_check">CHECKBOX ACCESS</string>
+    <string name="btn_radio">RADIO ACCESS</string>
+    <string name="btn_calculator">AKSES KALKULATOR</string>
+
+    <!--  Konten About  -->
+    <string name="judul_about">About</string>
+
+    <!--  Konten Check Box  -->
+    <string name="judul_check">MAKANAN FAVORIT</string>
+    <string name="cb_gado">Gado-Gado</string>
+    <string name="cb_ayam_goreng">Ayam Goreng</string>
+    <string name="cb_gurame">Gurame Bakar Kecap</string>
+    <string name="cb_nasi_goreng">Nasi Goreng</string>
+    <string name="cb_sop_ayam">SOP Ayam Kampung</string>
+    <string name="btn_tampilkan">TAMPILKAN PILIHAN</string>
+
+    <!--  Konten Radio  -->
+    <string name="judul_radio">Pilihan Gadget</string>
+    <string name="rd_smartphone">Smartphone</string>
+    <string name="rd_laptop">Laptop</string>
+    <string name="rd_komputer">Komputer</string>
+    <string name="rd_tablet">Tablet</string>
+
+    <!--  Konten Calculator  -->
+    <string name="judul_calculator">Kalkulator Sederhana</string>
+
+<!--  Splash Screen  -->
+    <string name="spl_title">Hafid App</string>
+    <string name="spl_version">Versi 1.0</string>
+    <string name="spl_footer">Copyright 2023. Indonesia</string>
+</resources>

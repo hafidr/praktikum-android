@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ActivityCheck">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="28dip"
+        android:textColor="@color/biru_tua"
+        android:textStyle="bold"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="50dip"
+        android:text="@string/judul_check" />
+
+    <CheckBox
+        android:id="@+id/cb_ayam_goreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_ayam_goreng" />
+
+    <CheckBox
+        android:id="@+id/cb_gado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_gado" />
+
+    <CheckBox
+        android:id="@+id/cb_gurame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_gurame" />
+
+    <CheckBox
+        android:id="@+id/cb_nasi_goreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_nasi_goreng" />
+
+    <CheckBox
+        android:id="@+id/cb_sop_ayam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_sop_ayam" />
+
+    <Button
+        android:id="@+id/btn_tampilkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:layout_marginTop="40dip"
+        android:text="@string/btn_tampilkan" />
+</LinearLayout>

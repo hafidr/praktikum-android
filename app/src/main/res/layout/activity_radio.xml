@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ActivityRadio">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="50dip"
+        android:gravity="center_horizontal"
+        android:text="@string/judul_radio"
+        android:textColor="@color/biru_tua"
+        android:textSize="28dip"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/rd_gadget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rd_smartphone" />
+
+    <RadioButton
+        android:id="@+id/rd_tablet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rd_tablet" />
+
+    <RadioButton
+        android:id="@+id/rd_laptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rd_laptop" />
+
+    <RadioButton
+        android:id="@+id/rd_komputer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rd_komputer" />
+
+    <Button
+        android:id="@+id/btn_tampilkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@color/biru"
+        android:text="@string/btn_tampilkan" />
+</LinearLayout>
