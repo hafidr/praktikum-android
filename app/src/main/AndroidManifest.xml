@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Praktikum1RegB"
         tools:targetApi="31">
         <activity
-            android:name=".ActivitySplash"
+            android:name=".ActivityDashboard"
             android:exported="false" />
         <activity
             android:name=".ActivityCalculator"
@@ -32,7 +32,7 @@
             android:name=".ActivityAbout"
             android:exported="false" />
         <activity
-            android:name=".ActivityDashboard"
+            android:name=".ActivitySplash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
