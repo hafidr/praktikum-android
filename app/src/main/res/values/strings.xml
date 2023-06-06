@@ -40,8 +40,14 @@
     <!--  Konten Calculator  -->
     <string name="judul_calculator">Kalkulator Sederhana</string>
 
-<!--  Splash Screen  -->
+    <!--  Splash Screen  -->
     <string name="spl_title">Hafid App</string>
     <string name="spl_version">Versi 1.0</string>
     <string name="spl_footer">Copyright 2023. Indonesia</string>
+
+    <!--  Login Form  -->
+    <string name="lg_title">FORM LOGIN</string>
+    <string name="lg_username">Username</string>
+    <string name="lg_password">Password</string>
+    <string name="lg_btn_login">LOGIN</string>
 </resources>

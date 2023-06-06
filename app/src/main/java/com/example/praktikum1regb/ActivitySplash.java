@@ -18,8 +18,8 @@ public class ActivitySplash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent dashboard = new Intent(ActivitySplash.this, ActivityDashboard.class);
-                startActivity(dashboard);
+                Intent login = new Intent(ActivitySplash.this, ActivityLogin.class);
+                startActivity(login);
                 finish();
             }
         }, waktu);
