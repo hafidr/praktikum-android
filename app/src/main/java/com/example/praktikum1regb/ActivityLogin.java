@@ -1,5 +1,6 @@
 package com.example.praktikum1regb;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -42,6 +43,9 @@ public class ActivityLogin extends AppCompatActivity {
             Intent dashboard = new Intent(ActivityLogin.this, ActivityDashboard.class);
             startActivity(dashboard);
             finish();
+        } else {
+            AlertDialog.Builder builder = new AlertDialog.Builder(ActivityLogin.this);
+            builder.setMessage("Username atau password tidak sesuai").setNegativeButton("Coba lagi", null).create().show();
         }
     }
 
